@@ -78,7 +78,7 @@ public class Calculator {
         if (isRomanA!=isRomanB) {
             throw new Exception("Невозможно применить операцию с разными системами счисления.");
         }
-        if (isRomanA && isRomanB) {
+        if (isRomanA) {
             if (result <= 0) {
                 throw new Exception("Римская система счислений не имеет значений меньше единицы.");
             }
